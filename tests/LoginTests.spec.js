@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+const {test, expect} = require('@playwright/test');
 
 test('Web Client App login', async ({ page }) => {
     const email = 'anshika@gmail.com';
